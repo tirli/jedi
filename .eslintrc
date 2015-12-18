@@ -3,8 +3,9 @@
   "env": {
     "browser": true,
     "node": true,
-    "mocha": true,
+    "mocha": true
   },
+  "parser": "babel-eslint",
   "rules": {
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,
@@ -22,11 +23,6 @@
     "react"
   ],
   "globals": {
-    "__DEVELOPMENT__": true,
-    "__CLIENT__": true,
-    "__SERVER__": true,
-    "__DISABLE_SSR__": true,
-    "__DEVTOOLS__": true,
     "socket": true,
     "webpackIsomorphicTools": true
   }

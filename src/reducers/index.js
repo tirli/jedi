@@ -1,9 +1,8 @@
 import { combineReducers } from 'redux';
-import {reducer as formReducer} from 'redux-form';
-import darkLords from './darkLords';
+import darkJedis from './darkJedis';
 
 const rootReducer = combineReducers({
-  darkLords,
+  darkJedis,
 });
 
 export default rootReducer;

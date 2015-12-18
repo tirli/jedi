@@ -12,7 +12,7 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1b3061', endColorstr='#192b55', GradientType=0); /* IE6-9 */
 }
 
-.css-root {
+.cssRoot {
   margin: 36px auto 0;
   max-width: 800px;
   min-width: 640px;
@@ -22,7 +22,7 @@ body {
   padding: 5px;
 }
 
-.css-planet-monitor {
+.planetMonitor {
   margin-top: 0;
   border: 5px solid #87AFE7;
   border-radius: 2px;
@@ -33,18 +33,18 @@ body {
   text-shadow: 0px 0px 10px rgba(237, 230, 106, 0.6);
 }
 
-.css-scrollable-list {
+.scrollableList {
   display: flex
 }
 
-.css-slots {
+.slots {
   flex: 1 80%;
   padding: 0;
   list-style-type: none;
   margin: 0 7px 0 0;
 }
 
-.css-slot {
+.slot {
   padding: 16px;
   border: 5px solid hsla(167, 82%, 68%, 1);
   border-radius: 2px;
@@ -54,21 +54,21 @@ body {
   height: 1.7em;
 }
 
-.css-slot h3, .css-slot h4, .css-slot h5, .css-slot h6 {
+.slot h3, .slot h4, .slot h5, .slot h6 {
   margin: 0;
 }
 
-.css-slot + .css-slot {
+.slot + .slot {
   margin-top: 7px;
 }
 
-.css-scroll-buttons {
+.scrollButtons {
   flex: 1 20%;
   display: flex;
   flex-direction: column;
 }
 
-.css-scroll-buttons button {
+.scrollButtons button {
   flex: 1;
   border: 5px solid #69F0D2;
   border-radius: 2px;
@@ -76,11 +76,11 @@ body {
   background: #39697A;
 }
 
-.css-button-down {
+.buttonDown {
   margin-top: 7px;
 }
 
-.css-button-up::after {
+.buttonUp::after {
   content: '\21D1';
   display: block;
   color: #69F0D2;
@@ -88,7 +88,7 @@ body {
   text-shadow: 0px 0px 10px #69F0D2;
 }
 
-.css-button-down::after {
+.buttonDown::after {
   content: '\21D3';
   display: block;
   color: #69F0D2;
@@ -96,6 +96,6 @@ body {
   text-shadow: 0px 0px 10px #69F0D2;
 }
 
-.css-button-disabled {
+.buttonDisabled {
   opacity: 0.5;
 }
